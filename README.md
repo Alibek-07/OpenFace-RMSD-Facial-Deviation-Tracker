@@ -94,8 +94,6 @@ tracker = RealTimeFacialDeviationTracker(
 )
 
 # Quick Start:
-Basic Usage
-
 from facial_deviation_tracker import RealTimeFacialDeviationTracker
 import os
 import cv2
@@ -109,11 +107,10 @@ tracker = RealTimeFacialDeviationTracker(
 #Step 1: Setup baseline (maintain neutral expression)
 print("Setting up baseline...")
 if tracker.setup_baseline(num_frames=30):
-    print("Baseline established successfully!")
-    
+    print("Baseline established successfully!") 
     # Step 2: Start real-time tracking
     csv_file, report_file = tracker.start_tracking(duration_minutes=5)
-    
+        
     # Step 3: Analyze results
     tracker.analyze_deviation_patterns()
     
