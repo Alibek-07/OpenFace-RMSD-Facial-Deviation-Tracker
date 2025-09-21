@@ -47,16 +47,16 @@ Required Software
 # OpenFace Installation
 
 # macOS:
-bash# Install dependencies
-brew install cmake opencv boost dlib
+#Install dependencies:
+- brew install cmake opencv boost dlib
 
-Clone and build OpenFace
-git clone https://github.com/TadasBaltrusaitis/OpenFace.git
-cd OpenFace
-mkdir build
-cd build
-cmake -D CMAKE_CXX_COMPILER=g++ -D CMAKE_C_COMPILER=gcc -D CMAKE_BUILD_TYPE=RELEASE ..
-make -j4
+Clone and build OpenFace:
+- git clone https://github.com/TadasBaltrusaitis/OpenFace.git
+- cd OpenFace
+- mkdir build
+- cd build
+- cmake -D CMAKE_CXX_COMPILER=g++ -D CMAKE_C_COMPILER=gcc -D CMAKE_BUILD_TYPE=RELEASE ..
+- make -j4
 
 # Linux (Ubuntu/Debian):
 Install dependencies:
