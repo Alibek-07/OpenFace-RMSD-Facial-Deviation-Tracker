@@ -247,9 +247,14 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)  # Lower = faster
 - This project is licensed under the MIT License - see the LICENSE file for details.
 - Citation:
 - If you use this software in academic research, please cite:
-bibtex@software{openface_rmsd_tracker,
+@software{openface_rmsd_tracker,
   title={OpenFace RMSD Facial Deviation Tracker},
   author={Your Name},
   year={2024},
   url={https://github.com/yourusername/openface-rmsd-tracker}
 }
+
+# Acknowledgments:
+- OpenFace by Tadas Baltrusaitis
+- Frontiers in Psychology research paper (2020) for RMSD methodology
+- OpenCV community for computer vision tools
