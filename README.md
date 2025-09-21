@@ -59,17 +59,17 @@ cmake -D CMAKE_CXX_COMPILER=g++ -D CMAKE_C_COMPILER=gcc -D CMAKE_BUILD_TYPE=RELE
 make -j4
 
 # Linux (Ubuntu/Debian):
-Install dependencies
-sudo apt-get update
-sudo apt-get install build-essential cmake libopencv-dev libboost-all-dev libdlib-dev
+Install dependencies:
+- sudo apt-get update
+- sudo apt-get install build-essential cmake libopencv-dev libboost-all-dev libdlib-dev
 
-Clone and build OpenFace
-git clone https://github.com/TadasBaltrusaitis/OpenFace.git
-cd OpenFace
-mkdir build
-cd build
-cmake -D CMAKE_BUILD_TYPE=RELEASE ..
-make -j4
+Clone and build OpenFace:
+- git clone https://github.com/TadasBaltrusaitis/OpenFace.git
+- cd OpenFace
+- mkdir build
+- cd build
+- cmake -D CMAKE_BUILD_TYPE=RELEASE ..
+- make -j4
 
 
 # Python Dependencies
@@ -88,7 +88,7 @@ bashpip install -r requirements.txt
 Configure OpenFace path:
 Edit the openface_path parameter in the main script:
 
-Update this path to your OpenFace installation
+Update this path to your OpenFace installation:
 tracker = RealTimeFacialDeviationTracker(
     openface_path="/path/to/your/OpenFace/installation"
 )
